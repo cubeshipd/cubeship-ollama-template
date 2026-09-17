@@ -103,3 +103,15 @@ The app is limited to 4 CPUs and 8 GiB of memory, and Ollama sizes what it
 loads against that limit, not the machine's. For a 7–8B model with a longer context, raise
 `limits` in `template.yaml` to 12 or 16 GiB, if the machine has it. More CPUs
 make answers faster, up to the machine's physical cores.
+
+---
+
+<!-- cubeship-crosslink -->
+
+## About Cubeship
+
+This is a template for [**Cubeship**](https://github.com/cubeshipd/cubeship) —
+a PaaS you run on your own server: `docker push`, and it is live, with HTTPS,
+a database beside it, and a second machine when one stops being enough.
+
+Browse every template at [cubeship.dev/templates](https://cubeship.dev/templates).
